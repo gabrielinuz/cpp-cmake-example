@@ -8,6 +8,10 @@ cmake_minimum_required(VERSION 3.8)
 # Establecer versión de C++
 set (CMAKE_CXX_STANDARD 17)
 
+# Establecer los compiladores de C y C++
+set(CMAKE_C_COMPILER "gcc")
+set(CMAKE_CXX_COMPILER "g++")
+
 # Nombre del proyecto Cmake
 project(HelloWorldProject)
 
